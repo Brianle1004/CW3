@@ -1,0 +1,40 @@
+h1,h2 {
+	text-align: center;
+}
+
+
+main {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	display: flex;
+}
+
+.left_column {
+	flex-basis: 33%;
+	
+}
+
+.right_column {
+	flex-basis: 67%;
+}
+
+.common {
+	padding: 2em;
+	margin: 2em;
+	border: 4px red dashed;
+}
+
+img {
+	float: right;
+	width: 200px;
+}
+
+.right_down {
+	clear: both;
+}
+
+.last_p {
+	position: fixed;
+	bottom: 5px;
+}
